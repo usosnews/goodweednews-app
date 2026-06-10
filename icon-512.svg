@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#0D2B0D"/>
+  <g transform="translate(256,248)">
+    <line x1="0" y1="138" x2="0" y2="-26" stroke="#C8A84B" stroke-width="10" stroke-linecap="round"/>
+    <path d="M0,-26 C-74,-80 -116,-26 -80,42 C-48,96 0,54 0,54 C0,54 48,96 80,42 C116,-26 74,-80 0,-26Z" fill="#4CAF50" opacity="0.92"/>
+    <path d="M-10,26 C-64,-10 -128,0 -112,58 C-96,108 -26,84 -10,48Z" fill="#4CAF50" opacity="0.76"/>
+    <path d="M10,26 C64,-10 128,0 112,58 C96,108 26,84 10,48Z" fill="#4CAF50" opacity="0.76"/>
+    <path d="M-5,58 C-48,32 -100,52 -86,100 C-70,138 -16,116 -5,80Z" fill="#3a8f3e" opacity="0.72"/>
+    <path d="M5,58 C48,32 100,52 86,100 C70,138 16,116 5,80Z" fill="#3a8f3e" opacity="0.72"/>
+  </g>
+  <text x="256" y="436" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="38" font-weight="700" letter-spacing="0.16em" fill="#C8A84B">USOS</text>
+</svg>
