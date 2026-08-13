@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#0D2B0D">
-<meta name="description" content="United States of Stoners — the definitive cannabis law reference. Every state. Every rule. Updated daily.">
+<meta name="description" content="United States of Stoners — cannabis law reference. 24 recreational states + DC. Possession, home grow, DUI, taxes. Verify with your state's cannabis control board.">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="USOS">
 <meta property="og:title" content="United States of Stoners — Field Guide">
-<meta property="og:description" content="The definitive cannabis law reference. 25 states + DC. Possession limits, home grow rules, DUI laws, taxes. Updated daily.">
+<meta property="og:description" content="Cannabis law reference. 24 recreational states + DC. Possession limits, home grow rules, DUI laws, taxes.">
 <meta property="og:type" content="website">
 <title>USOS — Field Guide</title>
 <link rel="manifest" href="manifest.json">
@@ -247,7 +247,7 @@
     <!-- Federal reminder -->
     <div class="fed-banner" style="margin-bottom:12px;">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#C8A84B"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-      <span><strong>Federal law still controls.</strong> Crossing state lines = federal crime. Federal land (parks, bases, post offices) = federal crime. April 2026: medical rescheduled to Schedule III — recreational unchanged.</span>
+      <span><strong>Federal law still controls.</strong> Crossing state lines = federal crime. Federal land (parks, bases, post offices) = federal crime. April 23, 2026: FDA-approved and state-licensed medical marijuana moved to Schedule III. Recreational and unlicensed cannabis remain Schedule I — broader rescheduling hearing concluded July 2026, final DEA ruling pending.</span>
     </div>
 
     <!-- Search + filters -->
@@ -268,7 +268,7 @@
 
   <!-- STATS -->
   <div class="stats-bar">
-    <div class="stat-tile"><div class="stat-n">25</div><div class="stat-l">Rec states</div></div>
+    <div class="stat-tile"><div class="stat-n">24</div><div class="stat-l">Rec states</div></div>
     <div class="stat-tile"><div class="stat-n">+DC</div><div class="stat-l">Gifting market</div></div>
     <div class="stat-tile"><div class="stat-n">3</div><div class="stat-l">No home grow</div></div>
     <div class="stat-tile"><div class="stat-n">Sch III</div><div class="stat-l">Medical 2026</div></div>
@@ -500,7 +500,7 @@ const STATES = [
     medAdv:"Earlier access, broader product selection",
     consume:"Private property only.",
     notes:[
-      {t:"info",s:"Retail launched 2025 — dispensary availability still expanding."},
+      {t:"info",s:"Retail launched September 2025 — 100+ dispensaries operating by mid-2026."},
       {t:"ok",s:"800mg edible limit is among the higher in the country."},
       {t:"warn",s:"Check dispensary availability — rollout is ongoing."},
     ]
@@ -652,17 +652,19 @@ const STATES = [
   },
   {
     name:"Virginia", status:"recreational", age:21,
-    possess:"4 oz on person",
-    home:"4 plants per household", purchase:"Per retailer within state limits",
-    tax:"12% excise + 4.3% sales + local (up to 3%)", dui:"No per se limit — officer discretion",
-    lounge:false, delivery:true, expunge:true,
-    medAdv:"Dedicated dispensary access, higher product variety",
+    possess:"1 oz in public (over 1 oz = civil fine, over 4 oz = criminal)",
+    home:"4 plants per household", purchase:"No recreational retail yet — sales begin July 1, 2027",
+    tax:"Retail tax structure pending — 12% state excise + up to 3% local scheduled for 2027 launch", dui:"No per se limit — officer discretion",
+    lounge:false, delivery:false, expunge:true,
+    medAdv:"Medical dispensaries operate now — the ONLY legal way to purchase in Virginia today",
     consume:"Private property only.",
     notes:[
-      {t:"ok",s:"4 oz on-person limit — among the highest in the US."},
-      {t:"info",s:"Retail launched January 2024."},
-      {t:"neutral",s:"Home delivery available in select areas."},
-      {t:"neutral",s:"Market still maturing — dispensary count growing."},
+      {t:"warn",s:"No legal recreational retail yet — possession is legal, buying it is not."},
+      {t:"warn",s:"Gray/black market purchases carry legal risk despite possession being legal."},
+      {t:"info",s:"Possession & home grow legal since July 2021 (HB 2312)."},
+      {t:"info",s:"Retail cannabis sales begin July 1, 2027 (HB 30, signed 2026)."},
+      {t:"ok",s:"Home grow: 4 plants per household, out of public view."},
+      {t:"neutral",s:"Existing medical dispensaries expected to convert to dual-use in 2027."},
     ]
   },
   {
