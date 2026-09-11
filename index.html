@@ -247,7 +247,7 @@
     <!-- Federal reminder -->
     <div class="fed-banner" style="margin-bottom:12px;">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" color="#C8A84B"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-      <span><strong>Federal law still controls.</strong> Crossing state lines = federal crime. Federal land (parks, bases, post offices) = federal crime. April 23, 2026: FDA-approved and state-licensed medical marijuana moved to Schedule III. Recreational and unlicensed cannabis remain Schedule I — broader rescheduling hearing concluded July 2026, final DEA ruling pending.</span>
+      <span><strong>Federal law still controls.</strong> Crossing state lines = federal crime. Federal land (parks, bases, post offices) = federal crime. April 23, 2026: FDA-approved and state-licensed medical marijuana moved to Schedule III. Recreational and unlicensed cannabis remain Schedule I. Broader rescheduling hearing concluded July 2026; DEA post-hearing brief (Aug 2026) argued for Schedule III. ALJ recommendation pending.</span>
     </div>
 
     <!-- Search + filters -->
@@ -270,7 +270,7 @@
   <div class="stats-bar">
     <div class="stat-tile"><div class="stat-n">24</div><div class="stat-l">Rec states</div></div>
     <div class="stat-tile"><div class="stat-n">+DC</div><div class="stat-l">Gifting market</div></div>
-    <div class="stat-tile"><div class="stat-n">3</div><div class="stat-l">No home grow</div></div>
+    <div class="stat-tile"><div class="stat-n">4</div><div class="stat-l">No home grow</div></div>
     <div class="stat-tile"><div class="stat-n">Sch III</div><div class="stat-l">Medical 2026</div></div>
   </div>
 
@@ -390,15 +390,15 @@ const STATES = [
   },
   {
     name:"Delaware", status:"recreational", age:21,
-    possess:"1 oz flower",
-    home:"Home grow NOT permitted", purchase:"1 oz per transaction",
+    possess:"1 oz flower · 12g concentrate · 750mg THC edibles",
+    home:"Home grow NOT permitted", purchase:"1 oz flower · 12g concentrate · 750mg THC per transaction",
     tax:"15% retail marijuana tax", dui:"No per se limit — officer discretion",
     lounge:false, delivery:false, expunge:true,
     medAdv:"Slightly higher limits",
     consume:"Private property only.",
     notes:[
       {t:"warn",s:"No home growing whatsoever — recreational or medical."},
-      {t:"info",s:"Retail only launched 2024 — still early market."},
+      {t:"info",s:"Retail launched August 1, 2025 — 12 converted medical dispensaries opened day one; 30 rec-only licenses still rolling out."},
       {t:"neutral",s:"Small state — dispensary access is generally close."},
     ]
   },
@@ -420,8 +420,8 @@ const STATES = [
   {
     name:"Illinois", status:"recreational", age:21,
     possess:"30g flower · 5g concentrate · 500mg THC edibles (non-residents: 15g flower)",
-    home:"Medical patients only: 5 plants", purchase:"Same as possession limits per visit",
-    tax:"10–25% cannabis tax (potency-based) + 6.25% state sales", dui:"Any detectable amount — officer discretion + blood",
+    home:"Home grow NOT permitted for recreational (medical patients: 5 plants)", purchase:"Same as possession limits per visit",
+    tax:"10–25% cannabis tax (potency-based) + 6.25% state sales", dui:"5 ng/mL whole blood per se limit (10 ng other bodily fluid) — medical cardholders exempt from per se",
     lounge:false, delivery:false, expunge:true,
     medAdv:"Home grow rights, higher limits, tax discounts",
     consume:"Private property only.",
@@ -494,13 +494,13 @@ const STATES = [
   {
     name:"Minnesota", status:"recreational", age:21,
     possess:"2 oz flower · 8g concentrate · 800mg THC edibles",
-    home:"8 plants (2 mature) per adult", purchase:"Per product category limits",
+    home:"8 plants per household · max 4 flowering", purchase:"Per product category limits",
     tax:"10% cannabis tax + local taxes", dui:"No per se limit — officer discretion",
     lounge:false, delivery:false, expunge:true,
     medAdv:"Earlier access, broader product selection",
     consume:"Private property only.",
     notes:[
-      {t:"info",s:"Retail launched September 2025 — 100+ dispensaries operating by mid-2026."},
+      {t:"info",s:"Retail launched 2025 — dispensary availability still expanding."},
       {t:"ok",s:"800mg edible limit is among the higher in the country."},
       {t:"warn",s:"Check dispensary availability — rollout is ongoing."},
     ]
@@ -535,16 +535,17 @@ const STATES = [
   },
   {
     name:"Nevada", status:"recreational", age:21,
-    possess:"1 oz flower · 3.5g concentrate",
-    home:"6 plants per adult · max 12/household (only if 25+ miles from nearest dispensary)", purchase:"1 oz flower · 3.5g concentrate per day",
-    tax:"15% excise + 10% retail sales tax", dui:"2 ng/mL blood THC limit — one of few hard limits",
+    possess:"2.5 oz flower · 7g concentrate",
+    home:"6 plants per adult · max 12/household (only if 25+ miles from nearest dispensary)", purchase:"2.5 oz flower · 7g concentrate per day",
+    tax:"15% excise + 10% retail sales tax", dui:"No per se limit — officer discretion (2 ng/mL retained for felony DUI only)",
     lounge:true, delivery:false, expunge:true,
     medAdv:"Higher limits, tax exemptions",
     consume:"Private property. Licensed lounges in Las Vegas area.",
     notes:[
       {t:"warn",s:"Home grow ONLY if you live 25+ miles from a dispensary."},
       {t:"warn",s:"Hotels universally prohibit use. Casino floors are off-limits."},
-      {t:"warn",s:"2 ng/mL blood limit — strictly enforced DUI threshold."},
+      {t:"info",s:"Possession limits raised to 2.5 oz flower / 7g concentrate on Jan 1, 2024 (SB 277)."},
+      {t:"info",s:"Per se DUI limits repealed July 2025 (AB 400) — now impairment-based like most rec states."},
       {t:"info",s:"Consumption lounges are licensed in Las Vegas area."},
     ]
   },
@@ -597,14 +598,14 @@ const STATES = [
     name:"Ohio", status:"recreational", age:21,
     possess:"2.5 oz flower · 15g concentrate",
     home:"6 plants per adult · max 12/household", purchase:"2.5 oz per transaction",
-    tax:"10% excise tax", dui:"No per se limit — officer discretion",
+    tax:"10% excise + 5.75% state sales tax", dui:"No per se limit — officer discretion",
     lounge:false, delivery:false, expunge:true,
     medAdv:"Earlier access, dedicated dispensaries",
     consume:"Private property only.",
     notes:[
-      {t:"info",s:"Legalized via Issue 2 in November 2023 — one of the newer states."},
-      {t:"warn",s:"Rules still being finalized — verify with Ohio Division of Cannabis Control."},
-      {t:"neutral",s:"Medical dispensaries converting to dual-use on rolling basis."},
+      {t:"info",s:"Legalized via Issue 2 in November 2023; sales launched August 6, 2024."},
+      {t:"info",s:"Cleared $700M+ in first-year recreational sales — established market with 150+ dual-use dispensaries."},
+      {t:"warn",s:"120+ Ohio municipalities have moratoriums banning adult-use sales — check your city."},
     ]
   },
   {
@@ -654,7 +655,7 @@ const STATES = [
     name:"Virginia", status:"recreational", age:21,
     possess:"1 oz in public (over 1 oz = civil fine, over 4 oz = criminal)",
     home:"4 plants per household", purchase:"No recreational retail yet — sales begin July 1, 2027",
-    tax:"Retail tax structure pending — 12% state excise + up to 3% local scheduled for 2027 launch", dui:"No per se limit — officer discretion",
+    tax:"Retail tax structure pending — set by HB 30 (2026) for July 2027 launch", dui:"No per se limit — officer discretion",
     lounge:false, delivery:false, expunge:true,
     medAdv:"Medical dispensaries operate now — the ONLY legal way to purchase in Virginia today",
     consume:"Private property only.",
@@ -662,7 +663,7 @@ const STATES = [
       {t:"warn",s:"No legal recreational retail yet — possession is legal, buying it is not."},
       {t:"warn",s:"Gray/black market purchases carry legal risk despite possession being legal."},
       {t:"info",s:"Possession & home grow legal since July 2021 (HB 2312)."},
-      {t:"info",s:"Retail cannabis sales begin July 1, 2027 (HB 30, signed 2026)."},
+      {t:"info",s:"HB 30 enacted June 29, 2026 — retail sales begin July 1, 2027; CCA must adopt regulations by Feb 1, 2027."},
       {t:"ok",s:"Home grow: 4 plants per household, out of public view."},
       {t:"neutral",s:"Existing medical dispensaries expected to convert to dual-use in 2027."},
     ]
