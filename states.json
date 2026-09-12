@@ -1,0 +1,823 @@
+{
+  "version": "2026-09-11",
+  "updated_at": "2026-09-11T00:00:00Z",
+  "states": [
+    {
+      "name": "Alaska",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz flower · 1 oz concentrate",
+      "home": "6 plants (3 mature)",
+      "purchase": "1 oz per transaction",
+      "tax": "~20% excise",
+      "dui": "Active THC — no legal limit, officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Higher limits, tax exempt",
+      "consume": "Private property only. No public use.",
+      "notes": [
+        {
+          "t": "info",
+          "s": "One of the first states to legalize (2014)."
+        },
+        {
+          "t": "ok",
+          "s": "Old convictions eligible for expungement."
+        },
+        {
+          "t": "warn",
+          "s": "No licensed consumption lounges statewide."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery limited by geography — rural areas vary."
+        }
+      ]
+    },
+    {
+      "name": "Arizona",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz flower · 5g concentrate",
+      "home": "6 plants per adult · max 12/household",
+      "purchase": "1 oz flower or 5g concentrate",
+      "tax": "16% excise + 5.6% state sales tax",
+      "dui": "Zero tolerance — any detectable THC",
+      "lounge": false,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Higher limits, lower taxes",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "Zero-tolerance DUI — even trace metabolites can count."
+        },
+        {
+          "t": "ok",
+          "s": "Home grow must be in an enclosed, secure space."
+        },
+        {
+          "t": "info",
+          "s": "Approved by voters in 2020 (Prop 207)."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery is legal statewide."
+        }
+      ]
+    },
+    {
+      "name": "California",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz flower · 8g concentrate",
+      "home": "6 plants per person",
+      "purchase": "1 oz per visit",
+      "tax": "15% excise + local taxes (can hit 35%+ in some cities)",
+      "dui": "No legal limit — officer discretion + blood test",
+      "lounge": true,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Higher limits, reduced taxes",
+      "consume": "Private residence. Licensed lounges in select cities.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "Some cities (e.g. Fresno) ban retail outright — check local laws."
+        },
+        {
+          "t": "warn",
+          "s": "Smoking where tobacco is banned = also banned."
+        },
+        {
+          "t": "ok",
+          "s": "Cannabis cafés and lounges licensed in L.A., San Francisco."
+        },
+        {
+          "t": "info",
+          "s": "First medical state (1996). Combined taxes often 30–35%."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery legal statewide — strong legal market."
+        }
+      ]
+    },
+    {
+      "name": "Colorado",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz flower · 8g concentrate",
+      "home": "6 plants per adult · max 12/household",
+      "purchase": "1 oz flower · 8g concentrate per day",
+      "tax": "15% excise + 15% special sales tax + state/local sales",
+      "dui": "5 ng/mL blood THC (presumptive — rebuttable)",
+      "lounge": true,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Higher limits",
+      "consume": "Private property. Licensed lounges in Denver & Aspen.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "Denver has licensed cannabis-friendly hotels."
+        },
+        {
+          "t": "info",
+          "s": "Pioneered recreational legalization in 2012."
+        },
+        {
+          "t": "warn",
+          "s": "Edibles are heavily regulated in labeling and dosing."
+        },
+        {
+          "t": "neutral",
+          "s": "Strong retail market — prices are competitive."
+        }
+      ]
+    },
+    {
+      "name": "Connecticut",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1.5 oz on person · 5 oz at home",
+      "home": "3 mature + 3 immature per adult · INDOOR ONLY · outdoor = felony",
+      "purchase": "0.5 oz flower per transaction",
+      "tax": "~18% total (state excise + sales)",
+      "dui": "No per se limit — officer discretion + blood test",
+      "lounge": false,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "5 oz/month purchase, lower taxes, higher-potency products",
+      "consume": "Private property only. No multi-unit building common areas.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "Outdoor growing is a felony — indoor only, even one plant outside."
+        },
+        {
+          "t": "warn",
+          "s": "Plants must not be visible from the street or neighboring properties."
+        },
+        {
+          "t": "ok",
+          "s": "Home grow legal for all adults since July 2023."
+        },
+        {
+          "t": "ok",
+          "s": "44,000+ cannabis convictions automatically expunged (Dec 2022)."
+        },
+        {
+          "t": "info",
+          "s": "Purchase limit is lower (0.5 oz/transaction) than most rec states."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery is legal — 3 delivery-only operators in CT."
+        }
+      ]
+    },
+    {
+      "name": "Delaware",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz flower · 12g concentrate · 750mg THC edibles",
+      "home": "Home grow NOT permitted",
+      "purchase": "1 oz flower · 12g concentrate · 750mg THC per transaction",
+      "tax": "15% retail marijuana tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Slightly higher limits",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "No home growing whatsoever — recreational or medical."
+        },
+        {
+          "t": "info",
+          "s": "Retail launched August 1, 2025 — 12 converted medical dispensaries opened day one; 30 rec-only licenses still rolling out."
+        },
+        {
+          "t": "neutral",
+          "s": "Small state — dispensary access is generally close."
+        }
+      ]
+    },
+    {
+      "name": "District of Columbia",
+      "status": "dc",
+      "age": 21,
+      "possess": "2 oz",
+      "home": "6 plants (3 mature)",
+      "purchase": "Cannot be sold — gifting market only",
+      "tax": "None (no retail sales)",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Actual licensed dispensaries",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "Congress blocks DC from running retail sales — only 'gifting' exists."
+        },
+        {
+          "t": "warn",
+          "s": "Gifting: buy a sticker/shirt, receive weed as a 'free gift.'"
+        },
+        {
+          "t": "ok",
+          "s": "Home grow is generous — 6 plants for personal use."
+        },
+        {
+          "t": "info",
+          "s": "Medical dispensaries do sell directly — recreational loop is the gifting market."
+        }
+      ]
+    },
+    {
+      "name": "Illinois",
+      "status": "recreational",
+      "age": 21,
+      "possess": "30g flower · 5g concentrate · 500mg THC edibles (non-residents: 15g flower)",
+      "home": "Home grow NOT permitted for recreational (medical patients: 5 plants)",
+      "purchase": "Same as possession limits per visit",
+      "tax": "10–25% cannabis tax (potency-based) + 6.25% state sales",
+      "dui": "5 ng/mL whole blood per se limit (10 ng other bodily fluid) — medical cardholders exempt from per se",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Home grow rights, higher limits, tax discounts",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "Out-of-state visitors get lower limits (15g vs 30g)."
+        },
+        {
+          "t": "warn",
+          "s": "No recreational home grow — medical card required."
+        },
+        {
+          "t": "ok",
+          "s": "Strong social equity focus in licensing — minority-owned dispensaries."
+        },
+        {
+          "t": "info",
+          "s": "Potency-based tax: flower taxed less than concentrates."
+        }
+      ]
+    },
+    {
+      "name": "Maine",
+      "status": "recreational",
+      "age": 21,
+      "possess": "2.5 oz flower · 5g concentrate",
+      "home": "3 mature + 12 immature plants per adult",
+      "purchase": "2.5 oz per transaction",
+      "tax": "10% sales tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": true,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Higher purchase limits, lower taxes",
+      "consume": "Private property. Some licensed social clubs.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "Has licensed cannabis clubs — one of few states to allow them."
+        },
+        {
+          "t": "ok",
+          "s": "Very generous home grow (12 immature plants per adult)."
+        },
+        {
+          "t": "info",
+          "s": "Low 10% tax rate — among the lowest in legal states."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery legal — smaller market, rural areas vary."
+        }
+      ]
+    },
+    {
+      "name": "Maryland",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1.5 oz flower",
+      "home": "2 plants per adult · max 4/household",
+      "purchase": "1.5 oz per transaction",
+      "tax": "9% excise + 6% sales tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Higher purchase amounts, tax reductions",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "info",
+          "s": "Recreational sales began July 2023 — still a maturing market."
+        },
+        {
+          "t": "ok",
+          "s": "Home grow: only 2 plants per adult, locked away from minors."
+        },
+        {
+          "t": "neutral",
+          "s": "Medical program continues alongside recreational sales."
+        }
+      ]
+    },
+    {
+      "name": "Massachusetts",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz on person · 10 oz at home",
+      "home": "6 plants per adult · max 12/household",
+      "purchase": "1 oz per transaction",
+      "tax": "10.75% excise + 6.25% state sales + local (up to 3%)",
+      "dui": "No per se limit — officer discretion + blood",
+      "lounge": true,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "More product variety, potential tax reduction",
+      "consume": "Private property. Licensed social consumption in some towns.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "10 oz home storage limit — one of the highest in the country."
+        },
+        {
+          "t": "warn",
+          "s": "Landlords can legally prohibit use in rental units."
+        },
+        {
+          "t": "info",
+          "s": "Social consumption sites licensed — check your city."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery legal — competitive market."
+        }
+      ]
+    },
+    {
+      "name": "Michigan",
+      "status": "recreational",
+      "age": 21,
+      "possess": "2.5 oz on person · 10 oz at home",
+      "home": "12 plants per adult",
+      "purchase": "2.5 oz per transaction",
+      "tax": "10% excise + 6% sales tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": true,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Higher limits",
+      "consume": "Private property. Licensed lounges available.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "12 plants per adult — most generous home grow in the US."
+        },
+        {
+          "t": "ok",
+          "s": "Very competitive retail market — some of the lowest prices nationally."
+        },
+        {
+          "t": "warn",
+          "s": "Plants must not be visible from public spaces or roads."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery legal — widespread availability."
+        }
+      ]
+    },
+    {
+      "name": "Minnesota",
+      "status": "recreational",
+      "age": 21,
+      "possess": "2 oz flower · 8g concentrate · 800mg THC edibles",
+      "home": "8 plants per household · max 4 flowering",
+      "purchase": "Per product category limits",
+      "tax": "10% cannabis tax + local taxes",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Earlier access, broader product selection",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "info",
+          "s": "Retail launched 2025 — dispensary availability still expanding."
+        },
+        {
+          "t": "ok",
+          "s": "800mg edible limit is among the higher in the country."
+        },
+        {
+          "t": "warn",
+          "s": "Check dispensary availability — rollout is ongoing."
+        }
+      ]
+    },
+    {
+      "name": "Missouri",
+      "status": "recreational",
+      "age": 21,
+      "possess": "3 oz flower",
+      "home": "6 plants per adult · max 12/household",
+      "purchase": "3 oz per transaction",
+      "tax": "6% state excise + 4.225% sales tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Higher monthly limits",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "3 oz possession limit — among the more generous rec states."
+        },
+        {
+          "t": "info",
+          "s": "Prop 3 (2022) converted existing medical dispensaries to dual-use."
+        },
+        {
+          "t": "ok",
+          "s": "Low excise tax rate (6%) — prices tend to be competitive."
+        }
+      ]
+    },
+    {
+      "name": "Montana",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz flower · 8g concentrate",
+      "home": "4 plants per adult · max 8/household",
+      "purchase": "1 oz per transaction",
+      "tax": "20% cannabis tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Higher limits, tax reduction",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "Rural state — dispensaries concentrated in Billings, Missoula, Bozeman."
+        },
+        {
+          "t": "info",
+          "s": "Retail began January 2022."
+        },
+        {
+          "t": "neutral",
+          "s": "20% tax is on the higher end — prices reflect it."
+        }
+      ]
+    },
+    {
+      "name": "Nevada",
+      "status": "recreational",
+      "age": 21,
+      "possess": "2.5 oz flower · 7g concentrate",
+      "home": "6 plants per adult · max 12/household (only if 25+ miles from nearest dispensary)",
+      "purchase": "2.5 oz flower · 7g concentrate per day",
+      "tax": "15% excise + 10% retail sales tax",
+      "dui": "No per se limit — officer discretion (2 ng/mL retained for felony DUI only)",
+      "lounge": true,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Higher limits, tax exemptions",
+      "consume": "Private property. Licensed lounges in Las Vegas area.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "Home grow ONLY if you live 25+ miles from a dispensary."
+        },
+        {
+          "t": "warn",
+          "s": "Hotels universally prohibit use. Casino floors are off-limits."
+        },
+        {
+          "t": "info",
+          "s": "Possession limits raised to 2.5 oz flower / 7g concentrate on Jan 1, 2024 (SB 277)."
+        },
+        {
+          "t": "info",
+          "s": "Per se DUI limits repealed July 2025 (AB 400) — now impairment-based like most rec states."
+        },
+        {
+          "t": "info",
+          "s": "Consumption lounges are licensed in Las Vegas area."
+        }
+      ]
+    },
+    {
+      "name": "New Jersey",
+      "status": "recreational",
+      "age": 21,
+      "possess": "6 oz flower",
+      "home": "Home grow NOT permitted",
+      "purchase": "1 oz flower per transaction",
+      "tax": "6.625% sales tax + local transfer tax (up to 3%)",
+      "dui": "No per se limit — officer discretion",
+      "lounge": true,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Home grow (medical only), higher limits",
+      "consume": "Private property. Licensed social lounges permitted.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "6 oz possession limit — one of the highest in the US."
+        },
+        {
+          "t": "warn",
+          "s": "No home growing whatsoever — recreational or medical."
+        },
+        {
+          "t": "info",
+          "s": "Low sales tax (6.6%) but local taxes can add up."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery legal statewide."
+        }
+      ]
+    },
+    {
+      "name": "New Mexico",
+      "status": "recreational",
+      "age": 21,
+      "possess": "2 oz flower · 16g concentrate · 800mg edibles",
+      "home": "6 plants per adult · max 12/household",
+      "purchase": "2 oz flower per visit",
+      "tax": "12% cannabis excise tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": true,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Higher monthly limits, lower taxes",
+      "consume": "Private property. Licensed on-site consumption permitted.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "On-site consumption lounges are fully licensed — one of few states."
+        },
+        {
+          "t": "ok",
+          "s": "16g concentrate limit is among the most generous."
+        },
+        {
+          "t": "info",
+          "s": "Retail launched June 2021."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery legal statewide."
+        }
+      ]
+    },
+    {
+      "name": "New York",
+      "status": "recreational",
+      "age": 21,
+      "possess": "3 oz flower · 24g concentrate",
+      "home": "6 plants per adult · max 12/household",
+      "purchase": "Per retailer within state limits",
+      "tax": "9% state excise + 4% local + sales tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": true,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Higher limits, dedicated dispensaries",
+      "consume": "Anywhere tobacco smoking is legally permitted.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "Only state allowing use wherever tobacco is legal — parks, streets."
+        },
+        {
+          "t": "warn",
+          "s": "No use in cars, near schools, or on federal property."
+        },
+        {
+          "t": "info",
+          "s": "24g concentrate limit is the highest among rec states."
+        },
+        {
+          "t": "neutral",
+          "s": "Retail rollout was slow — market expanding rapidly now."
+        }
+      ]
+    },
+    {
+      "name": "Ohio",
+      "status": "recreational",
+      "age": 21,
+      "possess": "2.5 oz flower · 15g concentrate",
+      "home": "6 plants per adult · max 12/household",
+      "purchase": "2.5 oz per transaction",
+      "tax": "10% excise + 5.75% state sales tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Earlier access, dedicated dispensaries",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "info",
+          "s": "Legalized via Issue 2 in November 2023; sales launched August 6, 2024."
+        },
+        {
+          "t": "info",
+          "s": "Cleared $700M+ in first-year recreational sales — established market with 150+ dual-use dispensaries."
+        },
+        {
+          "t": "warn",
+          "s": "120+ Ohio municipalities have moratoriums banning adult-use sales — check your city."
+        }
+      ]
+    },
+    {
+      "name": "Oregon",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz in public · 8 oz at home · 16 oz solid edibles · 72 oz liquid",
+      "home": "4 plants per household",
+      "purchase": "1 oz flower per day",
+      "tax": "17% retail tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": true,
+      "delivery": true,
+      "expunge": true,
+      "medAdv": "Higher limits, lower taxes",
+      "consume": "Private property. Licensed consumption cafés exist.",
+      "notes": [
+        {
+          "t": "ok",
+          "s": "One of the most established markets — prices are very competitive."
+        },
+        {
+          "t": "ok",
+          "s": "Cannabis cafés licensed in Portland area."
+        },
+        {
+          "t": "info",
+          "s": "Very generous home storage (8 oz flower, 72 oz liquid)."
+        },
+        {
+          "t": "neutral",
+          "s": "Delivery legal — strong infrastructure."
+        }
+      ]
+    },
+    {
+      "name": "Rhode Island",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz on person · 10 oz at home",
+      "home": "6 plants per adult · max 12/household",
+      "purchase": "1 oz per transaction",
+      "tax": "10% state excise + 3% local + sales tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Higher purchase limits, tax breaks",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "info",
+          "s": "Retail launched December 2022."
+        },
+        {
+          "t": "ok",
+          "s": "10 oz home storage — generous for a small state."
+        },
+        {
+          "t": "neutral",
+          "s": "Smallest state — dispensary access is rarely far."
+        }
+      ]
+    },
+    {
+      "name": "Vermont",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz flower · 5g concentrate",
+      "home": "6 plants per adult (2 mature)",
+      "purchase": "Per retailer within state limits",
+      "tax": "14% cannabis excise + 6% sales tax",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Higher limits, dedicated access",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "info",
+          "s": "First state to legalize by legislature (not ballot), 2018."
+        },
+        {
+          "t": "info",
+          "s": "Retail sales launched October 2022."
+        },
+        {
+          "t": "neutral",
+          "s": "Boutique, slower-growing market with fewer dispensaries."
+        }
+      ]
+    },
+    {
+      "name": "Virginia",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz in public (over 1 oz = civil fine, over 4 oz = criminal)",
+      "home": "4 plants per household",
+      "purchase": "No recreational retail yet — sales begin July 1, 2027",
+      "tax": "Retail tax structure pending — set by HB 30 (2026) for July 2027 launch",
+      "dui": "No per se limit — officer discretion",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Medical dispensaries operate now — the ONLY legal way to purchase in Virginia today",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "No legal recreational retail yet — possession is legal, buying it is not."
+        },
+        {
+          "t": "warn",
+          "s": "Gray/black market purchases carry legal risk despite possession being legal."
+        },
+        {
+          "t": "info",
+          "s": "Possession & home grow legal since July 2021 (HB 2312)."
+        },
+        {
+          "t": "info",
+          "s": "HB 30 enacted June 29, 2026 — retail sales begin July 1, 2027; CCA must adopt regulations by Feb 1, 2027."
+        },
+        {
+          "t": "ok",
+          "s": "Home grow: 4 plants per household, out of public view."
+        },
+        {
+          "t": "neutral",
+          "s": "Existing medical dispensaries expected to convert to dual-use in 2027."
+        }
+      ]
+    },
+    {
+      "name": "Washington",
+      "status": "recreational",
+      "age": 21,
+      "possess": "1 oz flower · 7g concentrate · 16 oz solid edibles · 72 oz liquid",
+      "home": "Home grow NOT permitted for recreational users",
+      "purchase": "1 oz flower · 7g concentrate per day",
+      "tax": "37% excise tax (highest in the US)",
+      "dui": "5 ng/mL blood THC limit",
+      "lounge": false,
+      "delivery": false,
+      "expunge": true,
+      "medAdv": "Home grow rights (medical only), lower taxes",
+      "consume": "Private property only.",
+      "notes": [
+        {
+          "t": "warn",
+          "s": "37% excise tax — highest in any legal state. Prices are steep."
+        },
+        {
+          "t": "warn",
+          "s": "No recreational home growing — medical card required for any plants."
+        },
+        {
+          "t": "warn",
+          "s": "5 ng/mL blood limit for DUI — strictly enforced."
+        },
+        {
+          "t": "info",
+          "s": "One of the first states (2012). Very mature, well-regulated market."
+        }
+      ]
+    }
+  ]
+}
