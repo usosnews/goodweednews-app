@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-11",
-  "updated_at": "2026-09-11T00:00:00Z",
+  "version": "2026-09-21",
+  "updated_at": "2026-09-21T00:00:00Z",
   "states": [
     {
       "name": "Alaska",
@@ -85,7 +85,7 @@
       "notes": [
         {
           "t": "warn",
-          "s": "Some cities (e.g. Fresno) ban retail outright — check local laws."
+          "s": "Many cities and counties have opted out of licensing rec retail — check local ordinances before you drive somewhere expecting a dispensary."
         },
         {
           "t": "warn",
@@ -419,7 +419,7 @@
       "notes": [
         {
           "t": "info",
-          "s": "Retail launched 2025 — dispensary availability still expanding."
+          "s": "Adult-use retail launched September 2025 — dispensary availability still expanding statewide."
         },
         {
           "t": "ok",
@@ -427,7 +427,7 @@
         },
         {
           "t": "warn",
-          "s": "Check dispensary availability — rollout is ongoing."
+          "s": "Check dispensary availability in your area — rollout is ongoing."
         }
       ]
     },
@@ -629,24 +629,52 @@
       "name": "Ohio",
       "status": "recreational",
       "age": 21,
-      "possess": "2.5 oz flower · 15g concentrate",
-      "home": "6 plants per adult · max 12/household",
-      "purchase": "2.5 oz per transaction",
+      "possess": "2.5 oz flower · 15g concentrate (Ohio-licensed or homegrown only — out-of-state cannabis illegal since SB 56)",
+      "home": "6 plants per adult · max 12/household · enclosed, secure, not visible from public",
+      "purchase": "2.5 oz per transaction · Ohio dispensaries only",
       "tax": "10% excise + 5.75% state sales tax",
       "dui": "No per se limit — officer discretion",
       "lounge": false,
       "delivery": false,
       "expunge": true,
-      "medAdv": "Earlier access, dedicated dispensaries",
-      "consume": "Private property only.",
+      "medAdv": "Exempt from 10% excise tax; higher edible potency (55mg/serving vs rec); 90-day supply purchase windows",
+      "consume": "Private property only. Public consumption is a minor misdemeanor.",
       "notes": [
         {
-          "t": "info",
-          "s": "Legalized via Issue 2 in November 2023; sales launched August 6, 2024."
+          "t": "warn",
+          "s": "SB 56 (effective March 20, 2026) recriminalized cannabis purchased in any other state — even legal Michigan purchases become contraband at the Ohio border."
+        },
+        {
+          "t": "warn",
+          "s": "No sharing or gifting of homegrown cannabis between adults. Issue 2's gifting allowance was repealed. Only licensed dispensaries may transfer cannabis."
+        },
+        {
+          "t": "warn",
+          "s": "Open transport is illegal — cannabis must be in the trunk (or behind the last upright seat) or in original unopened packaging."
+        },
+        {
+          "t": "warn",
+          "s": "Non-discrimination protections for recreational users were repealed. Employers, landlords, licensing boards, family courts, and organ-transplant programs can act on rec use."
+        },
+        {
+          "t": "warn",
+          "s": "Exceeding plant limits is now 'illegal cultivation of marijuana' — a more serious charge than possession overage. One plant over the limit exposes you to criminal liability."
+        },
+        {
+          "t": "warn",
+          "s": "THC potency caps: 35% flower, 70% extracts (adjustable by the Division of Cannabis Control)."
+        },
+        {
+          "t": "ok",
+          "s": "Dispensaries may now sell cannabis seeds and clones directly to consumers."
         },
         {
           "t": "info",
-          "s": "Cleared $700M+ in first-year recreational sales — established market with 150+ dual-use dispensaries."
+          "s": "Legalized via Issue 2 in November 2023; sales launched August 6, 2024. Legislature rewrote large parts of Issue 2 via SB 56, signed Dec 19, 2025 and effective March 20, 2026."
+        },
+        {
+          "t": "info",
+          "s": "Dispensary count capped statewide at 400. A referendum effort (Ohioans for Cannabis Choice) is collecting signatures to put portions of SB 56 before voters in November 2026."
         },
         {
           "t": "warn",
