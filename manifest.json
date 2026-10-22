@@ -1,7 +1,7 @@
 {
-  "name": "United States of Stoners — Field Guide",
-  "short_name": "USOS",
-  "description": "The definitive cannabis law reference. 25 states + DC. Possession limits, home grow rules, DUI laws, taxes. Updated daily.",
+  "name": "Good Weed News — Field Guide",
+  "short_name": "GWN Guide",
+  "description": "The definitive cannabis law reference. 24 legal states + DC. Possession limits, home grow rules, DUI laws, taxes. Updated daily.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0D2B0D",
