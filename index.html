@@ -13,8 +13,8 @@
 <meta property="og:type" content="website">
 <title>Good Weed News — Field Guide</title>
 <link rel="manifest" href="manifest.json">
-<link rel="icon" href="icon-192.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon-192.svg">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
   :root {
     --bg: #0D2B0D;
@@ -56,6 +56,12 @@
   }
   .header-inner { padding: 14px 18px 12px; display: flex; align-items: center; justify-content: space-between; }
   .brand { display: flex; flex-direction: column; gap: 1px; }
+  @font-face { font-family: "Anton"; src: url("anton.woff2") format("woff2"); font-display: swap; }
+  .gwn-mark { display: inline-flex; flex-direction: column; line-height: 1; align-self: flex-start; text-decoration: none; margin-bottom: 5px; }
+  .gwn-mark i { display: block; height: 3px; background: #fadf62; border-radius: 1px; }
+  .gwn-mark span { font-family: "Anton", Impact, "Arial Narrow", sans-serif; font-size: 20px; letter-spacing: .01em; padding: 4px 0 3px; color: #fadf62; white-space: nowrap; }
+  .gwn-mark em { font-style: normal; color: #35bd64; }
+  .live-badge { white-space: nowrap; flex: none; }
   .brand-title { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; color: var(--mustard); text-transform: uppercase; }
   .brand-sub { font-size: 9px; color: rgba(168,213,168,0.5); letter-spacing: 0.08em; text-transform: uppercase; }
   .live-badge {
@@ -235,8 +241,8 @@
   <header class="app-header">
     <div class="header-inner">
       <div class="brand">
-        <span class="brand-title">Good Weed News</span>
-        <span class="brand-sub">Science · History · Facts — Freida's field guide</span>
+        <a class="gwn-mark" href="https://goodweednews.com" aria-label="Good Weed News home"><i></i><span>GOOD <em>WEED</em> NEWS</span><i></i></a>
+        <span class="brand-sub">Freida's Field Guide · Cannabis law, state by state</span>
       </div>
       <div class="live-badge">
         <span class="live-dot"></span>
