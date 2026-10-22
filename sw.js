@@ -1,7 +1,7 @@
 /* Good Weed News Field Guide service worker.
    Network first: visitors always get the latest page and law data when online;
    the cached copy is only used offline. Bump CACHE to force-clear old copies. */
-const CACHE = 'gwn-v3';
+const CACHE = 'gwn-v4';
 const ASSETS = ['/', '/index.html', '/manifest.json', '/states.json', '/federal.json', '/icon-192.png', '/icon-512.png', '/anton.woff2'];
 
 self.addEventListener('install', e => {
