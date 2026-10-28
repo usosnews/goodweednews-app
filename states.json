@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-21",
-  "updated_at": "2026-09-21T00:00:00Z",
+  "version": "2026-10-28",
+  "updated_at": "2026-10-28T00:00:00Z",
   "states": [
     {
       "name": "Alaska",
@@ -376,7 +376,7 @@
       "possess": "2.5 oz on person · 10 oz at home",
       "home": "12 plants per adult",
       "purchase": "2.5 oz per transaction",
-      "tax": "10% excise + 6% sales tax",
+      "tax": "24% wholesale tax + 10% excise + 6% sales tax",
       "dui": "No per se limit — officer discretion",
       "lounge": true,
       "delivery": true,
@@ -384,6 +384,10 @@
       "medAdv": "Higher limits",
       "consume": "Private property. Licensed lounges available.",
       "notes": [
+        {
+          "t": "warn",
+          "s": "New 24% wholesale tax took effect Jan 1, 2026, paid by growers/processors on sales to stores — on top of the 10% excise and 6% sales tax at the register, so expect higher shelf prices. Industry court challenge still pending."
+        },
         {
           "t": "ok",
           "s": "12 plants per adult — most generous home grow in the US."
