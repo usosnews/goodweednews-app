@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-28",
-  "updated_at": "2026-10-28T00:00:00Z",
+  "version": "2026-11-05",
+  "updated_at": "2026-11-05T00:00:00Z",
   "states": [
     {
       "name": "Alaska",
@@ -109,7 +109,7 @@
       "name": "Colorado",
       "status": "recreational",
       "age": 21,
-      "possess": "1 oz flower · 8g concentrate",
+      "possess": "2 oz flower · 8g concentrate",
       "home": "6 plants per adult · max 12/household",
       "purchase": "1 oz flower · 8g concentrate per day",
       "tax": "15% excise + 15% special sales tax + state/local sales",
@@ -245,7 +245,7 @@
       "name": "Illinois",
       "status": "recreational",
       "age": 21,
-      "possess": "30g flower · 5g concentrate · 500mg THC edibles (non-residents: 15g flower)",
+      "possess": "60g flower · 10g concentrate · 1,000mg THC edibles (non-residents: 30g flower · 5g concentrate · 500mg)",
       "home": "Home grow NOT permitted for recreational (medical patients: 5 plants)",
       "purchase": "Same as possession limits per visit",
       "tax": "10–25% cannabis tax (potency-based) + 6.25% state sales",
@@ -258,7 +258,7 @@
       "notes": [
         {
           "t": "warn",
-          "s": "Out-of-state visitors get lower limits (15g vs 30g)."
+          "s": "Out-of-state visitors get lower limits (30g vs 60g)."
         },
         {
           "t": "warn",
@@ -281,7 +281,7 @@
       "possess": "2.5 oz flower · 5g concentrate",
       "home": "3 mature + 12 immature plants per adult",
       "purchase": "2.5 oz per transaction",
-      "tax": "10% sales tax",
+      "tax": "14% sales tax",
       "dui": "No per se limit — officer discretion",
       "lounge": true,
       "delivery": true,
@@ -298,10 +298,6 @@
           "s": "Very generous home grow (12 immature plants per adult)."
         },
         {
-          "t": "info",
-          "s": "Low 10% tax rate — among the lowest in legal states."
-        },
-        {
           "t": "neutral",
           "s": "Delivery legal — smaller market, rural areas vary."
         }
@@ -314,7 +310,7 @@
       "possess": "1.5 oz flower",
       "home": "2 plants per adult · max 4/household",
       "purchase": "1.5 oz per transaction",
-      "tax": "9% excise + 6% sales tax",
+      "tax": "12% sales and use tax",
       "dui": "No per se limit — officer discretion",
       "lounge": false,
       "delivery": false,
@@ -340,9 +336,9 @@
       "name": "Massachusetts",
       "status": "recreational",
       "age": 21,
-      "possess": "1 oz on person · 10 oz at home",
+      "possess": "2 oz on person · 10 oz at home",
       "home": "6 plants per adult · max 12/household",
-      "purchase": "1 oz per transaction",
+      "purchase": "2 oz flower or equivalent per transaction",
       "tax": "10.75% excise + 6.25% state sales + local (up to 3%)",
       "dui": "No per se limit — officer discretion + blood",
       "lounge": true,
@@ -442,7 +438,7 @@
       "possess": "3 oz flower",
       "home": "6 plants per adult · max 12/household",
       "purchase": "3 oz per transaction",
-      "tax": "6% state excise + 4.225% sales tax",
+      "tax": "6% state excise + 4.225% sales tax + up to 3% local marijuana tax",
       "dui": "No per se limit — officer discretion",
       "lounge": false,
       "delivery": true,
@@ -542,7 +538,7 @@
       "lounge": true,
       "delivery": true,
       "expunge": true,
-      "medAdv": "Home grow (medical only), higher limits",
+      "medAdv": "Higher limits",
       "consume": "Private property. Licensed social lounges permitted.",
       "notes": [
         {
@@ -603,7 +599,7 @@
       "possess": "3 oz flower · 24g concentrate",
       "home": "6 plants per adult · max 12/household",
       "purchase": "Per retailer within state limits",
-      "tax": "9% state excise + 4% local + sales tax",
+      "tax": "9% state + 4% local excise (no general sales tax)",
       "dui": "No per se limit — officer discretion",
       "lounge": true,
       "delivery": true,
@@ -752,9 +748,9 @@
       "name": "Vermont",
       "status": "recreational",
       "age": 21,
-      "possess": "1 oz flower · 5g concentrate",
+      "possess": "2 oz flower · 10g hashish",
       "home": "6 plants per adult (2 mature)",
-      "purchase": "Per retailer within state limits",
+      "purchase": "2 oz or equivalent per transaction",
       "tax": "14% cannabis excise + 6% sales tax",
       "dui": "No per se limit — officer discretion",
       "lounge": false,
